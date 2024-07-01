@@ -1,6 +1,7 @@
 function bulbOn(){
     document.getElementById("bulb").src='bulbOn.jpeg';
     window.alert("got idea");
+    console.log("idea is here");
 }
 function bulbOff(){
     document.getElementById("bulb").src='bulbOff.jpeg';
